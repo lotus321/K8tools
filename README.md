@@ -1,12 +1,18 @@
-# K8tools 20190319
+# K8tools 20190417
 
 声明: 工具仅供安全研究或授权渗透，非法用途后果自负。<br>
 博客: https://www.cnblogs.com/k8gege<br>
 下载: https://github.com/k8gege/K8tools<br>
 密码: k8gege k8team K8team<br>
-PS:不定期更新,文件比较大，按需下载。
+
+PS: 不定期更新,文件比较大，可按需下载。工具BUG或建议可直接Github上留言<br>
+提权工具均可在远控cmd或WebShell下运行，大部份经过修改重新编译兼容性稳定性比网上要好<br>
+注意：不保证永久有效,喜欢自行保存。<br>
+
 <H3>综合工具</H3>
 [+] 综合工具 K8飞刀Final.rar<br>
+[+] K8data.mdb K8飞刀漏洞数据库20190402<br>
+[+] K8expList.txt K8飞刀漏洞利用列表<br>
 <H3>提权工具</H3>
 [+] 提权工具 iislpe.exe  IIS全版本提权(仅限IIS帐户、服务帐户)<br>
 [+] 提权工具 pr.exe pr有参版 pr0无参版（巴西烤肉:国内10年所说的PR或IIS6提权）<br>
@@ -40,6 +46,27 @@ PS:不定期更新,文件比较大，按需下载。
 [+] 提权工具 K8dllhijack.rar DLL却持测试工具<br>
 [+] 提权工具 Invoke-MS16-032.ps1<br>
 [+] Apache 2.2.1.4 mod_isapi exploit.rar<br>
+
+<H3>漏洞利用</H3>
+[+] 漏洞利用 K8飞刀-EXPLOIT内含20个程序EXP（Drupal、Joomla、Wordpress、Vbulletin、Xampp、Zimbra、ThinkPHP、Magento、Discuz）<br>
+[+] 漏洞利用 K8_Struts2_EXP (S2-045、devMode、S2-037、S2-032、S2-020、S2-019、S2-016、S2-013、S2-009、S2-005)<br>
+[+] 漏洞利用 K8_JbossExp.exe Jboss Jmx-console exploit<br>
+[+] 漏洞利用 K8 DotNetNuke DNNspot Store =3.0 GetShell exploit.rar<br>
+[+] 漏洞利用 CVE-2018-2628 Weblogic GetShell EXPLOIT<br>
+[+] 漏洞利用 ColdFusion 8 LFI EXP<br>
+[+] 漏洞利用 K8_TomcatExp_1124[K.8].rar<br>
+[+] 漏洞利用 WordPress 4.2 XSS 0day 20150429[K.8].rar<br>
+[+] 漏洞利用 k8_zabbix_exp_20160820[K.8].rar<br>
+
+<H3>漏洞利用</H3>
+[+] 漏洞利用 K8飞刀-EXPLOIT内含20个程序EXP（Drupal、Joomla、Wordpress、Vbulletin、Xampp、Zimbra、ThinkPHP、Magento、Discuz）<br>
+[+] 漏洞利用 K8_Struts2_EXP (S2-045、devMode、S2-037、S2-032、S2-020、S2-019、S2-016、S2-013、S2-009、S2-005)<br>
+[+] 漏洞利用 K8 DotNetNuke DNNspot Store =3.0 GetShell exploit.rar<br>
+[+] 漏洞利用 CVE-2018-2628 Weblogic GetShell EXPLOIT<br>
+[+] 漏洞利用 ColdFusion 8 LFI EXP<br>
+[+] 漏洞利用 K8_TomcatExp_1124[K.8].rar<br>
+[+] 漏洞利用 WordPress 4.2 XSS 0day 20150429[K.8].rar<br>
+[+] 漏洞利用 k8_zabbix_exp_20160820[K.8].rar<br>
 
 <H3>漏洞利用</H3>
 [+] 漏洞利用 K8飞刀-EXPLOIT内含20个程序EXP（Drupal、Joomla、Wordpress、Vbulletin、Xampp、Zimbra、ThinkPHP、Magento、Discuz）<br>
@@ -85,7 +112,17 @@ PS:不定期更新,文件比较大，按需下载。
 <H3>嗅探工具</H3>
 [+] 嗅探工具 K8getPC.py 内网存活主机探测(无需端口\无视防火墙)<br>
 <H3>扫描工具</H3>
-[+] 扫描工具 K8 Cscan 3.0.rar 高效批量C段扫描工具<br>
+[+] 扫描工具 K8Cscan 3.5.rar 大型内网渗透自定义扫描工具<br>
+[+] 扫描插件 K8Cscan Moudle CiscoScan.rar Cisco思科探测插件<br>
+[+] 扫描插件 K8Cscan Moudle OSScan2.rar 系统版本探测插件2<br>
+[+] 扫描插件 K8Cscan Moudle PortScan.cs 端口扫描插件源码<br>
+[+] 扫描插件 K8Cscan Moudle FtpScan.rar Ftp密码扫描插件<br>
+[+] 扫描插件 K8Cscan Moudle MysqlScan.rar Mysql密码扫描插件<br>
+[+] 扫描插件 K8Cscan Moudle OnlinePC.rar 存活主机扫描插件<br>
+[+] 扫描插件 K8Cscan Moudle WebBanner.rar WebBanner标题扫描插件<br>
+[+] 扫描插件 K8Cscan Moudle WmiScan.rar Wmi扫描Win系统密码插件<br>
+[+] 扫描工具 K8Cscan for SameWeb.rar C段旁站扫描工具<br>
+[+] 扫描工具 K8Cscan for SubDomain.rar 子域名扫描工具<br>
 [+] 扫描工具 cping3.0.rar 大型内外网渗透扫描工具<br>
 [+] 扫描工具 K8_C段旁注工具6.0<br>
 [+] 扫描工具 s加强版.exe<br>
@@ -94,7 +131,8 @@ PS:不定期更新,文件比较大，按需下载。
 [+] 扫描工具 WPdetection.exe WordPress站点信息获取<br>
 [+] 扫描工具 K8-S2批量.rar Struts2批量工具<br>
 [+] 扫描工具 smbcheck.exe MS17-010漏洞检测，cping、cscan批量专用<br>
-<H3>脱库工具</H3>
+<H3>数据库</H3>
+[+] 脱库工具 K8mysqlCmd.rar Mysql数据库免驱连接工具<br>
 [+] 脱库工具 K8_mysql脱裤20170114(千万).php<br>
 [+] 脱库工具 K8Packwebshell.aspx 整站打包工具<br>
 [+] 脱库工具 K8outSQL.aspx MSSQL导库工具<br>
@@ -129,6 +167,7 @@ PS:不定期更新,文件比较大，按需下载。
 [+] 转发代理 K8PortMap.exe<br>
 
 <H3>WebShell</H3>
+[+] 转换工具 k8exe2bat.exe 任意文件转Bat工具(WebShell无法上传EXE解决方案)<br>
 [+] 上传工具 K8upload_1125[K8].rar 新型小马上传工具支持任意文件(内置asp\php\jsp小马)<br>
 [+] 连接工具 K8一句话ASP木马客户端加强程序版.exe<br>
 [+] WebShell k8cmd.ascx<br>
